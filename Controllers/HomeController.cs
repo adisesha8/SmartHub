@@ -26,5 +26,12 @@ namespace SmartHub.Controllers
 
             return View();
         }
+
+        public ActionResult CenterInfo()
+        {
+            ViewBag.Message = "This page contains information about the center and the various services provided as part of the SmartHub initiative.";
+
+            return View();
+        }
     }
 }
