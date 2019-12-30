@@ -1,7 +1,18 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.PreviousTitle = "Welcome";
+    ViewBag.Title = "About the Center";
 }
-<h2>@ViewBag.Title.</h2>
+
+<h6>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="~/Home">@ViewBag.PreviousTitle</a></li>
+            <li class="breadcrumb-item">@ViewBag.Title</li>
+        </ol>
+    </nav>
+</h6>
+
+<h2>@ViewBag.Title</h2>
 <h3>@ViewBag.Message</h3>
 
 <p>This page contains information about the center and the various services provided as part of the SmartHub initiative.</p>

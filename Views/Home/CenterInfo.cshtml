@@ -1,9 +1,18 @@
 ﻿@{
-    ViewBag.Title = "Smart Center";
+    ViewBag.PreviousTitle = "Welcome";
+    ViewBag.Title = "Smart Center Services";
+    ViewBag.Message = "offers various services for you...";
 }
-<h2>@ViewBag.Title </h2>
-<p>@ViewBag.Message 
-    <br/><br/>
-    @ViewBag.Title offers various services for you...
-</p>
+
+<h6>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="~/Home">@ViewBag.PreviousTitle</a></li>
+            <li class="breadcrumb-item">@ViewBag.Title</li>
+        </ol>
+    </nav>
+</h6>
+
+<h2>@ViewBag.Title</h2>
+<p>@ViewBag.Title division @ViewBag.Message</p>
 

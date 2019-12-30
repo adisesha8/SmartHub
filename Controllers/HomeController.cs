@@ -22,7 +22,7 @@ namespace SmartHub.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Smart Center for Healthcare and Sanitation Division";
 
             return View();
         }

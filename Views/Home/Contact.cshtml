@@ -1,17 +1,37 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.PreviousTitle = "Welcome";
+    ViewBag.Title = "Contact Us";
+    ViewBag.SupportEmail = "https://harrisburgu.edu/";
+    ViewBag.MarketingEmail = "https://harrisburgu.edu/";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+
+<h6>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="~/Home">@ViewBag.PreviousTitle</a></li>
+            <li class="breadcrumb-item">@ViewBag.Title</li>
+        </ol>
+    </nav>
+</h6>
+
+<h2>@ViewBag.Title</h2>
+<h4>@ViewBag.Message</h4>
 
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
+    326 Market Street<br />
+    Harrisburg, PA 17101-6399
+    </address>
+
+<address>
     <abbr title="Phone">P:</abbr>
-    425.555.0100
+    (717) 901-5100<br />
+    <abbr title="Mobile">M:</abbr>
+    (717) 901-5100<br />
+    <abbr title="Fax">F:</abbr>
+    (717) 901-5100
 </address>
 
 <address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    <strong>Support:</strong>   <a href=@ViewBag.SupportEmail target="_blank" rel="noopener noreferrer">@ViewBag.SupportEmail</a><br />
+    <strong>Marketing:</strong> <a href=@ViewBag.MarketingEmail target="_blank" rel="noopener noreferrer">@ViewBag.MarketingEmail</a>
 </address>

@@ -2,30 +2,49 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+    <div class="jumbotron">
+        <h1>SmartHub for Singapore</h1>
+        <h3 class="alert alert-light">
+            SmartHub is a free online web application which is utilized by 16 million users to learn and avail the services provided as part of the Healthcare and Sanitation initiative.
+        </h3>
+        <a href="~/Home/About" class="btn btn btn-success btn-lg active" role="button" aria-pressed="true">Click Here for More Info...</a>
+    </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+<div class="card-deck">
+    <div class="card">
+        <img class="card-img-top" src="~/Images/TalktoSomeone1.png" width="200" height="200" alt="Card image cap">
+        <div class="card-body">
+            <h2 class="card-title">Talk to Someone</h2>
+            <p class="card-text" align="justify">
+                The Smart Center is a one central location to access all the
+                information and services related to Healthacare of citizens and
+                Sanitation for any locality in the country. <br />
+                Please feel free to contact our department for any inquiries by cliking the below button.
+            </p>
+            <p class="card-text"><a href="~/Home/Contact" class="btn btn btn-success btn-lg active" role="button" aria-pressed="true">Click Here to Reach Us</a></p>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    <div class="card">
+        <div class="card-body">
+            <img class="card-img-top" src="~/Images/OnlineServices.png" width="200" height="200" alt="Card image cap">
+            <h2 class="card-title">Online Services</h2>
+            <p class="card-text" align="justify">
+                SmartHub Application offers information about many services perfromed at the Smart Center
+                and also some tools which will augment the processessing of certain queries.<br />
+                To learn about various services offered at the center and online tools, click the below button.
+            </p>
+            <p><a href="~/Home/CenterInfo" class="btn btn btn-success btn-lg active" role="button" aria-pressed="true">Click Here for More Info</a></p>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    <div class="card">
+        <div class="card-body">
+            <img class="card-img-top" src="~/Images/OnlineRegistration.png" width="200" height="200" alt="Card image cap">
+            <h2 class="card-title">Online Registration</h2>
+            <p class="card-text" align="justify">
+                SmartHub Tool is being enhanced to maintain personalized records of individuals. <br />
+                An individual can register and login to their own account to view and maintain record of their information and past inquiries.
+            </p>
+            <h2 class="lead">Coming Soon...</h2>
+        </div>
     </div>
 </div>
