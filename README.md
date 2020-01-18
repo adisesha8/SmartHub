@@ -1,2 +1,2 @@
 # SmartHub
-Website for Healthcare and sanitation services for Singapore.
+Website for Healthcare and Sanitation services for Singapore.
