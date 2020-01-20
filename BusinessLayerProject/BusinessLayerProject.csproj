@@ -44,5 +44,15 @@
     <Compile Include="BusinessLayerClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataLayerProject\DataLayerProject.csproj">
+      <Project>{f6a2f2eb-f4d5-4205-9923-8b05341576dd}</Project>
+      <Name>DataLayerProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModelProject\ModelProject.csproj">
+      <Project>{d0329adc-18d1-4254-9509-c079b7cc4798}</Project>
+      <Name>ModelProject</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
