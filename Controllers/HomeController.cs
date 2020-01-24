@@ -44,7 +44,7 @@ namespace SmartHub.Controllers
 
             var PatientDetails = BusinessLayerClass.GetPatientDetailsList();
 
-            return View();
+            return View(PatientDetails);
         }
     }
 }
