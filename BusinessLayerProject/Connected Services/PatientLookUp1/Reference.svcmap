@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5e7c7e75-c468-4d22-814a-e069511f9816" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51371/PatientLookUp1.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PatientLookUp1.xsd" MetadataType="Schema" ID="0c9e3384-9f13-448d-b5ad-eea5c84dfb6d" SourceId="1" SourceUrl="http://localhost:51371/PatientLookUp1.svc?xsd=xsd2" />
+    <MetadataFile FileName="PatientLookUp11.xsd" MetadataType="Schema" ID="37c6283c-8879-4401-8e69-e3c86f74161a" SourceId="1" SourceUrl="http://localhost:51371/PatientLookUp1.svc?xsd=xsd0" />
+    <MetadataFile FileName="PatientLookUp1.disco" MetadataType="Disco" ID="d75b27cc-45dc-48ac-bfb2-b57879d5ec55" SourceId="1" SourceUrl="http://localhost:51371/PatientLookUp1.svc?disco" />
+    <MetadataFile FileName="PatientLookUp1.wsdl" MetadataType="Wsdl" ID="1e0fdb57-f904-48bd-b7c3-5a07611bf090" SourceId="1" SourceUrl="http://localhost:51371/PatientLookUp1.svc?wsdl" />
+    <MetadataFile FileName="PatientLookUp12.xsd" MetadataType="Schema" ID="56658e86-ad62-4b4c-8bd4-a01ed28ad683" SourceId="1" SourceUrl="http://localhost:51371/PatientLookUp1.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -19,9 +19,13 @@ namespace BusinessLayerProject
 
             DataSet OutputFromDataLayerProject = new DataSet();
 
-            OutputFromDataLayerProject = DataLayerClass.RetrievePatientInformation();
+            OutputFromDataLayerProject = DataLayerClass.RetrievePatientInformation(); //2nd assignment
 
-            if(OutputFromDataLayerProject.Tables.Count>0)
+            //var Patientdatalookupbyservice = new PatientLookUp1.LookUpServiceClient();
+            //OutputFromDataLayerProject = Patientdatalookupbyservice.RetrievePatientInformation();
+            //3rd assignment
+
+            if (OutputFromDataLayerProject.Tables.Count>0)
             {
                 ListofModelClassObjects = OutputFromDataLayerProject.Tables[0].AsEnumerable().Select(x => new ModelClass
                 {
